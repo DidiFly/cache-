@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB974BB1268EBBC1000F0369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB974BB0268EBBC1000F0369 /* main.m */; };
+		CB974BB9268EBBE0000F0369 /* FFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CB974BB8268EBBE0000F0369 /* FFPerson.m */; };
+		CB974BBC268EBBF6000F0369 /* FFBoys.m in Sources */ = {isa = PBXBuildFile; fileRef = CB974BBB268EBBF6000F0369 /* FFBoys.m */; };
+		CB974BBF268EBC29000F0369 /* NSObject+FFGirls.m in Sources */ = {isa = PBXBuildFile; fileRef = CB974BBE268EBC29000F0369 /* NSObject+FFGirls.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB974BAB268EBBC1000F0369 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB974BAD268EBBC1000F0369 /* 002-方法调用响应链实践 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "002-方法调用响应链实践"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB974BB0268EBBC1000F0369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB974BB7268EBBDF000F0369 /* FFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFPerson.h; sourceTree = "<group>"; };
+		CB974BB8268EBBE0000F0369 /* FFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFPerson.m; sourceTree = "<group>"; };
+		CB974BBA268EBBF6000F0369 /* FFBoys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFBoys.h; sourceTree = "<group>"; };
+		CB974BBB268EBBF6000F0369 /* FFBoys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFBoys.m; sourceTree = "<group>"; };
+		CB974BBD268EBC29000F0369 /* NSObject+FFGirls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+FFGirls.h"; sourceTree = "<group>"; };
+		CB974BBE268EBC29000F0369 /* NSObject+FFGirls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FFGirls.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB974BAA268EBBC1000F0369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB974BA4268EBBC0000F0369 = {
+			isa = PBXGroup;
+			children = (
+				CB974BAF268EBBC1000F0369 /* 002-方法调用响应链实践 */,
+				CB974BAE268EBBC1000F0369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB974BAE268EBBC1000F0369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB974BAD268EBBC1000F0369 /* 002-方法调用响应链实践 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB974BAF268EBBC1000F0369 /* 002-方法调用响应链实践 */ = {
+			isa = PBXGroup;
+			children = (
+				CB974BB0268EBBC1000F0369 /* main.m */,
+				CB974BB7268EBBDF000F0369 /* FFPerson.h */,
+				CB974BB8268EBBE0000F0369 /* FFPerson.m */,
+				CB974BBA268EBBF6000F0369 /* FFBoys.h */,
+				CB974BBB268EBBF6000F0369 /* FFBoys.m */,
+				CB974BBD268EBC29000F0369 /* NSObject+FFGirls.h */,
+				CB974BBE268EBC29000F0369 /* NSObject+FFGirls.m */,
+			);
+			path = "002-方法调用响应链实践";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB974BAC268EBBC1000F0369 /* 002-方法调用响应链实践 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB974BB4268EBBC1000F0369 /* Build configuration list for PBXNativeTarget "002-方法调用响应链实践" */;
+			buildPhases = (
+				CB974BA9268EBBC1000F0369 /* Sources */,
+				CB974BAA268EBBC1000F0369 /* Frameworks */,
+				CB974BAB268EBBC1000F0369 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "002-方法调用响应链实践";
+			productName = "002-方法调用响应链实践";
+			productReference = CB974BAD268EBBC1000F0369 /* 002-方法调用响应链实践 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB974BA5268EBBC0000F0369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CB974BAC268EBBC1000F0369 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CB974BA8268EBBC0000F0369 /* Build configuration list for PBXProject "002-方法调用响应链实践" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB974BA4268EBBC0000F0369;
+			productRefGroup = CB974BAE268EBBC1000F0369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB974BAC268EBBC1000F0369 /* 002-方法调用响应链实践 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB974BA9268EBBC1000F0369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB974BB9268EBBE0000F0369 /* FFPerson.m in Sources */,
+				CB974BBF268EBC29000F0369 /* NSObject+FFGirls.m in Sources */,
+				CB974BB1268EBBC1000F0369 /* main.m in Sources */,
+				CB974BBC268EBBF6000F0369 /* FFBoys.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB974BB2268EBBC1000F0369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB974BB3268EBBC1000F0369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB974BB5268EBBC1000F0369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TR9324593;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB974BB6268EBBC1000F0369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TR9324593;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB974BA8268EBBC0000F0369 /* Build configuration list for PBXProject "002-方法调用响应链实践" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB974BB2268EBBC1000F0369 /* Debug */,
+				CB974BB3268EBBC1000F0369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB974BB4268EBBC1000F0369 /* Build configuration list for PBXNativeTarget "002-方法调用响应链实践" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB974BB5268EBBC1000F0369 /* Debug */,
+				CB974BB6268EBBC1000F0369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB974BA5268EBBC0000F0369 /* Project object */;
+}
